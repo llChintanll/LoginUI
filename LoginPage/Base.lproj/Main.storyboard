@@ -105,7 +105,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mtY-rq-7Aj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="44" y="196.55172413793105"/>
+            <point key="canvasLocation" x="-6" y="197"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="blN-aG-Vkl">
@@ -153,7 +153,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7TR-6H-zoM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="876" y="197"/>
+            <point key="canvasLocation" x="892" y="-164"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iy8-vh-dJ2">
@@ -169,6 +169,7 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Untitled.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="2Po-zh-EaE">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="375" id="PHx-as-gjY"/>
                                     <constraint firstAttribute="height" constant="667" id="pFk-Nr-DNN"/>
@@ -176,32 +177,17 @@
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="New Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xF6-nK-4Gs">
                                 <rect key="frame" x="66" y="141" width="242" height="30"/>
-                                <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="0.46206121575342468" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gMU-v3-3O5">
                                 <rect key="frame" x="66" y="214" width="242" height="30"/>
-                                <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="0.45649614726027399" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8gw-0g-9Fr">
-                                <rect key="frame" x="149" y="313" width="76" height="41"/>
-                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="0.26626712328767121" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="MAs-at-Lrs"/>
-                                    <constraint firstAttribute="width" constant="76" id="Nfo-jo-97m"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <state key="normal" title="Save">
-                                    <color key="titleColor" red="0.95901208689999995" green="0.95487505610000001" blue="0.98461294420000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="vbY-ad-RaE" kind="show" identifier="Save" id="9YL-8p-BLx"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7oU-dj-niX">
                                 <rect key="frame" x="135" y="69" width="104" height="30"/>
                                 <constraints>
@@ -212,6 +198,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8gw-0g-9Fr">
+                                <rect key="frame" x="146" y="319" width="93" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="Save">
+                                    <color key="titleColor" red="0.95901208689999995" green="0.95487505610000001" blue="0.98461294420000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vbY-ad-RaE" kind="show" identifier="Save" id="9YL-8p-BLx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -226,13 +224,10 @@
                             <constraint firstItem="xF6-nK-4Gs" firstAttribute="leading" secondItem="eA8-s8-qBk" secondAttribute="leadingMargin" constant="50" id="DK3-0p-KDS"/>
                             <constraint firstAttribute="trailingMargin" secondItem="xF6-nK-4Gs" secondAttribute="trailing" constant="51" id="EhL-Ja-MGP"/>
                             <constraint firstItem="2Po-zh-EaE" firstAttribute="leading" secondItem="eA8-s8-qBk" secondAttribute="leading" id="HsR-tu-9Tc"/>
-                            <constraint firstItem="8gw-0g-9Fr" firstAttribute="centerY" secondItem="eA8-s8-qBk" secondAttribute="centerY" id="Jbp-3Q-wez"/>
                             <constraint firstItem="7oU-dj-niX" firstAttribute="top" secondItem="t9S-MU-rbD" secondAttribute="bottom" constant="49" id="NqG-Qf-jUK"/>
                             <constraint firstItem="7oU-dj-niX" firstAttribute="leading" secondItem="eA8-s8-qBk" secondAttribute="leadingMargin" constant="119" id="QgP-55-F2O"/>
                             <constraint firstAttribute="trailingMargin" secondItem="7oU-dj-niX" secondAttribute="trailing" constant="120" id="WIX-hs-00x"/>
                             <constraint firstItem="gMU-v3-3O5" firstAttribute="top" secondItem="xF6-nK-4Gs" secondAttribute="bottom" constant="43" id="dJK-I7-D4m"/>
-                            <constraint firstItem="8gw-0g-9Fr" firstAttribute="centerX" secondItem="eA8-s8-qBk" secondAttribute="centerX" id="dZO-ep-ZRI"/>
-                            <constraint firstItem="8gw-0g-9Fr" firstAttribute="top" secondItem="gMU-v3-3O5" secondAttribute="bottom" constant="69" id="f75-sf-TJN"/>
                             <constraint firstItem="xF6-nK-4Gs" firstAttribute="top" secondItem="7oU-dj-niX" secondAttribute="bottom" constant="42" id="hnG-hi-6vB"/>
                             <constraint firstItem="gMU-v3-3O5" firstAttribute="leading" secondItem="eA8-s8-qBk" secondAttribute="leadingMargin" constant="50" id="od7-sT-CB2"/>
                         </constraints>
@@ -240,7 +235,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aCp-9V-VYJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1677.5999999999999" y="196.55172413793105"/>
+            <point key="canvasLocation" x="892" y="580.65967016491754"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="E6Z-Ze-A9s">
@@ -268,7 +263,6 @@
                                     <constraint firstAttribute="height" constant="30" id="04p-A3-tyH"/>
                                     <constraint firstAttribute="width" constant="150" id="iq3-pr-GFm"/>
                                 </constraints>
-                                <color key="textColor" red="0.96236687899999995" green="0.95275527240000002" blue="0.98284822699999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -279,49 +273,49 @@
                                     <constraint firstAttribute="width" constant="151" id="RNh-of-MEP"/>
                                     <constraint firstAttribute="height" constant="30" id="wuM-eX-jXN"/>
                                 </constraints>
-                                <color key="textColor" red="0.96236687899999995" green="0.95275527240000002" blue="0.98284822699999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Address :" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gvf-gl-abR">
                                 <rect key="frame" x="16" y="149" width="343" height="30"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="0.96236687899999995" green="0.95275527240000002" blue="0.98284822699999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="City :" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="u4u-Zp-4u3">
                                 <rect key="frame" x="16" y="263" width="343" height="30"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="0.96236687899999995" green="0.95275527240000002" blue="0.98284822699999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password :" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CO7-2L-Vzu">
                                 <rect key="frame" x="16" y="377" width="343" height="30"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.79663420376712324" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="0.96236687899999995" green="0.95275527240000002" blue="0.98284822699999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm Password :" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZyX-bj-upu">
                                 <rect key="frame" x="16" y="415" width="343" height="30"/>
                                 <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="0.80037992294520544" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="0.95901208689999995" green="0.95487505610000001" blue="0.98461294420000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Mobile Number :" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NMl-tQ-fjU">
                                 <rect key="frame" x="16" y="187" width="343" height="30"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="0.96236687899999995" green="0.95275527240000002" blue="0.98284822699999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email :" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Li-Lo-mgn">
                                 <rect key="frame" x="16" y="225" width="343" height="30"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="0.96236687899999995" green="0.95275527240000002" blue="0.98284822699999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -338,14 +332,14 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Gender :" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="klO-df-aTM">
                                 <rect key="frame" x="16" y="301" width="343" height="30"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="0.96236687899999995" green="0.95275527240000002" blue="0.98284822699999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Date Of Birth :" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IDi-aE-00p">
                                 <rect key="frame" x="16" y="339" width="343" height="30"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="0.96236687899999995" green="0.95275527240000002" blue="0.98284822699999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -425,7 +419,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GXY-BM-aiz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2533.5999999999999" y="196.55172413793105"/>
+            <point key="canvasLocation" x="1820" y="197"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="IfJ-pG-nGd">
@@ -474,13 +468,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qJC-Cj-XrZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3408.8000000000002" y="196.55172413793105"/>
+            <point key="canvasLocation" x="2754" y="197"/>
         </scene>
     </scenes>
     <resources>
         <image name="Untitled.jpeg" width="826" height="1446"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="9YL-8p-BLx"/>
+        <segue reference="5xC-jT-047"/>
     </inferredMetricsTieBreakers>
 </document>
