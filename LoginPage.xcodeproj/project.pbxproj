@@ -12,6 +12,7 @@
 		C356F2CB1F0B499F00FD7282 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C356F2C91F0B499F00FD7282 /* Main.storyboard */; };
 		C356F2CD1F0B499F00FD7282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C356F2CC1F0B499F00FD7282 /* Assets.xcassets */; };
 		C356F2D01F0B499F00FD7282 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C356F2CE1F0B499F00FD7282 /* LaunchScreen.storyboard */; };
+		C356F2DC1F0B7B8E00FD7282 /* Untitled.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C356F2DB1F0B7B8E00FD7282 /* Untitled.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C356F2CC1F0B499F00FD7282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C356F2CF1F0B499F00FD7282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C356F2D11F0B499F00FD7282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C356F2DB1F0B7B8E00FD7282 /* Untitled.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Untitled.jpeg; path = ../../../Documents/Untitled.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				C356F2C51F0B499F00FD7282 /* AppDelegate.swift */,
 				C356F2C71F0B499F00FD7282 /* ViewController.swift */,
 				C356F2C91F0B499F00FD7282 /* Main.storyboard */,
+				C356F2DB1F0B7B8E00FD7282 /* Untitled.jpeg */,
 				C356F2CC1F0B499F00FD7282 /* Assets.xcassets */,
 				C356F2CE1F0B499F00FD7282 /* LaunchScreen.storyboard */,
 				C356F2D11F0B499F00FD7282 /* Info.plist */,
@@ -125,6 +128,7 @@
 			files = (
 				C356F2D01F0B499F00FD7282 /* LaunchScreen.storyboard in Resources */,
 				C356F2CD1F0B499F00FD7282 /* Assets.xcassets in Resources */,
+				C356F2DC1F0B7B8E00FD7282 /* Untitled.jpeg in Resources */,
 				C356F2CB1F0B499F00FD7282 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
